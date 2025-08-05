@@ -1,1 +1,23 @@
-.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stop-watch">
+        <h1 id="display-time">00:00:00</h1>
+        <div class="buttons">
+            <img src="./images/stop.png" onclick="watchStop()">
+            <img src="./images/start.png" onclick="watchStart()">
+            <img src="./images/reset.png" onclick="watchReset()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
